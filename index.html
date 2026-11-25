@@ -353,8 +353,27 @@
 <body>
   <div class="container">
     <header>
-      <h1>Pianificatore Budget Familiare Mensile</h1>
+      <h1>Pianificatore Bilancio Familiare Mensile</h1>
       <img src="https://adiconsum.it/wp-content/uploads/2025/01/logo_adiconsum1977.svg" alt="Logo" width="200">
+            <form>
+        <label for="mesi">Bilancio del mese:</label>
+        
+        <select name="mesi" id="mesi">
+            <option value="" disabled selected>-- Seleziona un mese --</option>
+            <option value="01">Gennaio</option>
+            <option value="02">Febbraio</option>
+            <option value="03">Marzo</option>
+            <option value="04">Aprile</option>
+            <option value="05">Maggio</option>
+            <option value="06">Giugno</option>
+            <option value="07">Luglio</option>
+            <option value="08">Agosto</option>
+            <option value="09">Settembre</option>
+            <option value="10">Ottobre</option>
+            <option value="11">Novembre</option>
+            <option value="12">Dicembre</option>
+        </select>
+    </form>
       <div class="header-actions">
         <button type="button" id="resetBtn">Ripristina</button>
         <button type="button" class="btn-primary" onclick="window.print()">Stampa / Salva PDF</button>
